@@ -27,7 +27,7 @@
 
 .content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 @keyframes fadeOut {
@@ -38,7 +38,8 @@
 }
 
 .thumb {
-  height: 100px;
-  border: 1px solid black;
+  width: 100%;
+  border: 1px solid rgb(94, 94, 94);
   margin: 10px;
+  border-radius: 10px;
 }
